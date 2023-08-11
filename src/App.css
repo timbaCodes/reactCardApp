@@ -1,0 +1,47 @@
+* {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5%;
+}
+.logo {
+  width: 158px;
+  height: 28.93px;
+}
+img {
+  margin: auto 0;
+}
+.nav{
+  background-color: #21222A;
+  height: 90px;
+}
+.main{
+  background: #282D35;
+  background-image: url("./assets/logoIcon2.png");
+  background-repeat: no-repeat; 
+  background-size: auto 77%;
+  background-position: 100% 50%;
+  height : 300px;
+  padding: 57px 27px;
+}
+.main li {
+  padding: 5px;
+}
+.main li:last-child{
+  padding-right: 10%;
+}
+.main h1{
+  font-weight: 700;
+}
+h1{
+  margin: 0;
+}
+.main li::marker{
+  color: #61DAFB;
+  font-size: 1.5rem;
+}
